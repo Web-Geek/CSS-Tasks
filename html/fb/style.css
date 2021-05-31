@@ -1,0 +1,38 @@
+.container{
+    background-color: rgb(48, 119, 211);
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
+.a{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    right: 40px;
+    bottom: 0;
+    border: 50px solid #ffffff;
+    border-radius:80px 0 0 0;
+    border-right: none;
+    border-bottom: none;
+}
+.b{
+    position: absolute;
+    width: 145px;
+    height: 50px;
+    background-color: white;
+    bottom: 100px;
+    right: 40px;
+}
+.c{
+    width: 20px;
+    height: 100px;
+    background-color: rgb(48, 119, 211);
+    position: absolute;
+    right: 23px;
+    bottom: 70px;
+    transform: rotate(5deg);
+}

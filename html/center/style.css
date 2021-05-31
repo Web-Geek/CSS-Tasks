@@ -1,0 +1,33 @@
+body{
+    background-image: url("cafe.jpg"),url("cafe.jpg"),url("cafe.jpg"),url("cafe.jpg"),url("cafe.jpg"),url("dine.jpg"),url("dine.jpg"),url("dine.jpg"),url("dine.jpg"),
+    url("cafe.jpg"),url("cafe.jpg"),url("cafe.jpg"),url("cafe.jpg"),
+    url("dine.jpg"),url("dine.jpg"),url("dine.jpg");
+    background-size: 20vw 20vh;
+
+    background-position: 0 0, 20vw 0, 40vw 0, 60vw 0, 80vw 0,
+                        0 20vh,0 40vh,0 60vh,0 80vh,
+                        20vw 80vh,40vw 80vh,60vw 80vh,80vw 80vh,
+                        80vw 20vh,80vw 40vh,80vw 60vh;
+    background-repeat: no-repeat;
+}
+.text-container{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60vw;
+    height: 60vh;
+}
+h1{
+    text-align: center;
+    color: rgb(19, 4, 226);
+    text-decoration: underline;
+}
+p{
+    padding: 10px 100px 10px 100px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+}

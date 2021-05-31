@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(130, 130, 224);
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+    margin-left: 200px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;  
+     
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    
+}
